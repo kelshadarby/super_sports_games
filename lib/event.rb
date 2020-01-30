@@ -41,11 +41,3 @@ class Event
   end
 
 end # class
-
-event = Event.new("Steeple Jump", [24, 30, 18, 20, 41])
-puts event.name
-puts event.ages
-puts event.max_age
-puts event.min_age
-puts event.average_age
-puts event.standard_deviation_age
