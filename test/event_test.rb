@@ -10,5 +10,10 @@ class EventTest < Minitest::Test
 
     assert_instance_of Event, event
   end
+  def test_it_has_name
+    event = Event.new("Curling", [24, 30, 18, 20, 41])
+
+    assert_equal "Curling", event.name
+  end
 
 end # Class
