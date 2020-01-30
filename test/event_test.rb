@@ -28,5 +28,10 @@ class EventTest < Minitest::Test
     assert_equal 41, event.max_age
   end
 
+  def test_it_can_tell_min_age
+      event = Event.new("Curling", [24, 30, 18, 20, 41])
+
+      assert_equal 18, event.min_age
+    end
 
 end # Class
