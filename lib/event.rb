@@ -34,8 +34,8 @@ class Event
       end)
 
     sum_of_squared = squared_each.sum
-    squared_divided_by_count = sum_of_squared/@ages.count
 
+    squared_divided_by_count = sum_of_squared/@ages.count
 
     Math.sqrt(squared_divided_by_count).round(2)
   end
